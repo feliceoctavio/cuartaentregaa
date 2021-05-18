@@ -2,7 +2,14 @@
 /*bars*/
 #grilla {
   display: grid;
-  grid-template-areas: "barra barra " "cabeza cabeza " "cabezados cabezados" "articleuno sectionuno " "sectiondos articledos " "articletres sectiontres " "piedos piedos"     "pie pie ";
+  grid-template-areas: "barra barra "
+ "cabeza cabeza "
+ "cabezados cabezados"
+ "articleuno sectionuno "
+ "sectiondos articledos "
+ "articletres sectiontres "
+ "piedos piedos"    
+ "pie pie ";
   grid-template-columns: 5fr 5fr;
   grid-template-rows: 100px 150px 60rem 50rem 50rem 50rem 45rem 15rem;
   grid-row-gap: 20px;
@@ -81,7 +88,7 @@ div {
   margin-left: 2%; }
 
 footer {
-  background-color: #6e00b8; }
+  background-color: #5939e7; }
 
 article div h1 ul li div img {
   display: flex;
@@ -140,7 +147,17 @@ ul li {
     height: 20em; }
   #grilla {
     display: grid;
-    grid-template: "barra" "cabeza" "cabezados" "articleuno" "sectionuno" "sectiondos"  "articledos " "articletres"  "sectiontres " "piedos"     "pie "; } }
+    grid-template: "barra"
+ "cabeza"
+ "cabezados"
+ "articleuno"
+ "sectionuno"
+ "sectiondos" 
+ "articledos "
+ "articletres" 
+ "sectiontres "
+ "piedos"    
+ "pie "; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .imgcarrusel {
@@ -148,7 +165,17 @@ ul li {
     height: 30em; }
   #grilla {
     display: grid;
-    grid-template: "barra" "cabeza" "cabezados" "articleuno" "sectionuno" "sectiondos"  "articledos " "articletres"  "sectiontres " "piedos"     "pie "; } }
+    grid-template: "barra"
+ "cabeza"
+ "cabezados"
+ "articleuno"
+ "sectionuno"
+ "sectiondos" 
+ "articledos "
+ "articletres" 
+ "sectiontres "
+ "piedos"    
+ "pie "; } }
 
 @media (max-width: 375.98px) {
   .imgcarrusel {
@@ -156,7 +183,17 @@ ul li {
     height: 25em; }
   #grilla {
     display: grid;
-    grid-template: "barra" "cabeza" "cabezados" "articleuno" "sectionuno" "sectiondos"  "articledos " "articletres"  "sectiontres " "piedos"     "pie "; } }
+    grid-template: "barra"
+ "cabeza"
+ "cabezados"
+ "articleuno"
+ "sectionuno"
+ "sectiondos" 
+ "articledos "
+ "articletres" 
+ "sectiontres "
+ "piedos"    
+ "pie "; } }
 
 ul li {
   list-style: none;
@@ -218,7 +255,7 @@ footer {
   align-items: flex-end;
   margin: 0;
   margin-bottom: 0;
-  background-color: #6e00b8; }
+  background-color: #7f31d8; }
   footer ul li {
     font-weight: bold;
     font-family: 'Yatra One', cursive;
